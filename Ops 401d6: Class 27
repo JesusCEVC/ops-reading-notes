@@ -1,0 +1,17 @@
+## Persistence
+
+### What is one of the major advantages of PowerShell Empire?
+-  It can execute commands and actions on compromised systems using PowerShell, making it harder to detect.
+### What are some of the APT groups that have been known to use PS Empire and into which step of the Cyber Kill Chain does the use of PS Empire fall?
+- Traditionally APT32 (OceanLotus), APT34 (OilRig), and APT41.
+### What are the four main components needed to pull off an attack using PS Empire?
+- Listener are a communication channel in PowerShell Empire that waits for connections from compromised systems, facilitating communication between attacker and compromised system.
+
+- Modules allow attackers to perform actions like recon, exploitation, cred theft, and lateral movement. They are executed on compromised systems to carry out said tasks.
+
+- Agents bbackdoors on compromised systems. Establishing communication with the listener, enabling maintenance of control over the compromised system as well as establishing a foothold for further activities.
+
+- Stagers are small components used to initiate connection between an attacker's infrastructure and a compromised system. Typically delivered and executed through various methods like social engineering, malicious documents, or exploit kits.
+
+
+## Things I'd like to know more about
